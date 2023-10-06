@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>validate by direct input</h1>
+    <form action="#" method="post">
+        <fieldset>
+
+            <legend>validate by direct input</legend><br>
+            <label for="opi">enter the markup to validate;</label><br>
+            <textarea name="opinion" id="opi" cols="50" rows="10">
+            </textarea><br>
+
+            <input type="radio" name="op" id="opc" checked>
+            <label for="opc">validate full document</label><br>
+            <label for="opc">Use Doctype</label>
+
+            <select name="auto" id="automat">
+                <option>detec automatically</option>
+                <option value="#_1">#_1</option>
+                <option value="#_2">#_2</option>
+                <option value="#_3">#_3</option>
+            </select><br>
+
+            <input type="radio" name="op" id="opc1">
+            <label for="opc1">validate html fragment</label><br>
+
+            <label for="opc2">Use Doctype;</label>
+            <input type="radio" name="opcio" id="opc2" checked>
+            <label for="opc2">html 4.01</label>
+            <input type="radio" name="opcio" id="opc3">
+            <label for="opc3">xhtml 1.0</label><br>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>options</legend>
+            <input type="radio" name="lis" id="li" checked>
+            <label for="li">list messages sequientially</label>
+            <input type="radio" name="lis" id="gro">
+            <label for="gro">group error menssges by type</label><br><br>
+
+            <input type="checkbox" name="show" id="sho">
+            <label for="sho">show source</label>
+            <input type="checkbox" name="show" id="cle">
+            <label for="cle">clena up markup with html-tidy</label><br>
+        </fieldset>
+        <input type="submit" name="enviaInfo" value="check">
+
+
+    </form>
+</body>
+
+</html>
